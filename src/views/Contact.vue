@@ -58,10 +58,10 @@ import { MapPin, Phone, Mail, Clock, Send, ShieldCheck, Banknote, Truck, ArrowRi
     </div>
 
     <!-- Content Grid -->
-    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24 flex-grow w-full" data-aos="fade-up">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
+    <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24 flex-grow w-full" data-aos="fade-up">
+      <div class="flex flex-col gap-12 lg:gap-16">
         
-        <!-- Left: Info -->
+        <!-- Center: Info -->
         <div class="space-y-8">
           <div>
             <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-950 text-brand-400 text-sm font-bold mb-6 border border-brand-900">
@@ -105,52 +105,35 @@ import { MapPin, Phone, Mail, Clock, Send, ShieldCheck, Banknote, Truck, ArrowRi
             </div>
           </div>
 
-          <!-- Working hours card -->
-          <div class="bg-brand-950 p-6 rounded-xl border border-brand-900">
-             <h4 class="font-bold text-brand-400 mb-2 flex items-center gap-2">
-               <Clock class="w-4 h-4" />
-               Godziny pracy
-             </h4>
-             <p class="text-neutral-400 text-sm">Jesteśmy dostępni pod telefonem 7 dni w tygodniu. Odbiory zwierząt realizujemy również w weekendy po wcześniejszym umówieniu.</p>
+          <!-- Company details and working hours side by side -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Company details card -->
+            <div class="bg-gradient-to-br from-brand-900 via-brand-950 to-neutral-900 p-6 rounded-xl border border-brand-800/30">
+               <h4 class="font-bold text-white mb-3 flex items-center gap-2">
+                 <ShieldCheck class="w-4 h-4 text-brand-500" />
+                 Dane firmy
+               </h4>
+               <ul class="text-neutral-400 text-sm space-y-2">
+                 <li><strong class="text-neutral-300">NIP:</strong> 6731683206</li>
+                 <li><strong class="text-neutral-300">REGON:</strong> 331350519</li>
+                 <li><strong class="text-neutral-300">KRS:</strong> 0000090063</li>
+                 <li><strong class="text-neutral-300">Numer WNI:</strong> 32156109</li>
+                 <li><strong class="text-neutral-300">Numer przewoźnika:</strong> 32152803</li>
+               </ul>
+            </div>
+  
+            <!-- Working hours card -->
+            <div class="bg-brand-950 p-6 rounded-xl border border-brand-900">
+               <h4 class="font-bold text-brand-400 mb-2 flex items-center gap-2">
+                 <Clock class="w-4 h-4" />
+                 Godziny pracy
+               </h4>
+               <p class="text-neutral-400 text-sm">Jesteśmy dostępni pod telefonem 7 dni w tygodniu. Odbiory zwierząt realizujemy również w weekendy po wcześniejszym umówieniu.</p>
+            </div>
           </div>
         </div>
 
-        <!-- Right: Form -->
-        <div>
-          <div class="bg-gradient-to-br from-brand-900 via-brand-950 to-neutral-900 rounded-2xl shadow-2xl border border-brand-800/30 p-8 sticky top-24">
-            <h3 class="text-xl font-bold text-white mb-2">Napisz do nas</h3>
-            <p class="text-neutral-400 text-sm mb-6">Opisz czego szukasz lub co chcesz sprzedać — oddzwonimy w ciągu 15 minut.</p>
-            <form class="space-y-4">
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div>
-                  <label class="block text-sm font-bold text-neutral-300 mb-1">Imię i Nazwisko</label>
-                  <input type="text" class="w-full rounded-xl border border-neutral-800 bg-neutral-900/50 p-3.5 focus:ring-4 focus:ring-brand-500/20 focus:border-brand-500 transition-all outline-none text-sm text-white placeholder-neutral-500" placeholder="Jan Kowalski">
-                </div>
-                <div>
-                  <label class="block text-sm font-bold text-neutral-300 mb-1">Telefon</label>
-                  <input type="tel" class="w-full rounded-xl border border-neutral-800 bg-neutral-900/50 p-3.5 focus:ring-4 focus:ring-brand-500/20 focus:border-brand-500 transition-all outline-none text-sm text-white placeholder-neutral-500" placeholder="000-000-000">
-                </div>
-              </div>
-              
-              <div>
-                <label class="block text-sm font-bold text-neutral-300 mb-1">Miejscowość</label>
-                <input type="text" class="w-full rounded-xl border border-neutral-800 bg-neutral-900/50 p-3.5 focus:ring-4 focus:ring-brand-500/20 focus:border-brand-500 transition-all outline-none text-sm text-white placeholder-neutral-500" placeholder="np. Barwice">
-              </div>
-
-              <div>
-                <label class="block text-sm font-bold text-neutral-300 mb-1">Wiadomość</label>
-                <textarea rows="4" class="w-full rounded-xl border border-neutral-800 bg-neutral-900/50 p-3.5 focus:ring-4 focus:ring-brand-500/20 focus:border-brand-500 transition-all outline-none text-sm resize-none text-white placeholder-neutral-500" placeholder="Mam do sprzedania 5 byków..."></textarea>
-              </div>
-
-              <button type="button" class="w-full bg-brand-600 text-white font-bold py-4 rounded-xl hover:bg-brand-700 transition-all flex items-center justify-center gap-2 shadow-lg hover:shadow-brand-600/30 active:scale-[0.98]">
-                <Send class="w-4 h-4" />
-                Wyślij wiadomość
-              </button>
-
-              <p class="text-xs text-neutral-500 text-center">Odpowiadamy zwykle w ciągu 15 minut w godzinach pracy.</p>
-            </form>
-          </div>
-        </div>
+        <!-- Removed Right: Form Section as per user request -->
 
       </div>
     </section>

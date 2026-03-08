@@ -28,7 +28,7 @@ import { RouterLink } from 'vue-router';
       <!-- Description -->
       <p class="text-base lg:text-lg leading-relaxed mb-8 max-w-lg" style="color: #8a7e6a;">
         <strong style="color: #d4c8b0;">Gotówka od ręki</strong>, szybki odbiór i pomoc w załadunku.
-        Zaufaj firmie Marcina Kiedla z ponad <strong style="color: #d4c8b0;">18-letnim doświadczeniem</strong>.
+        Zaufaj firmie Marcina Kiedla z ponad <strong style="color: #d4c8b0;">25-letnim doświadczeniem</strong>.
       </p>
 
       <!-- Feature badges -->
@@ -113,7 +113,7 @@ import { RouterLink } from 'vue-router';
       <!-- Stats overlay (desktop top-right) -->
       <div class="hidden lg:flex absolute top-8 right-8 z-20 gap-3">
         <div class="px-4 py-3 rounded-xl backdrop-blur-md text-center shadow-xl" style="background: rgba(10,12,8,0.88); border: 1px solid rgba(200,146,42,0.2);">
-          <p class="text-xl font-black font-display" style="color: #c8922a;">18+</p>
+          <p class="text-xl font-black font-display" style="color: #c8922a;">25+</p>
           <p class="text-[10px] uppercase tracking-widest font-bold" style="color: #6b5a42;">Lat</p>
         </div>
         <div class="px-4 py-3 rounded-xl backdrop-blur-md text-center shadow-xl" style="background: rgba(10,12,8,0.88); border: 1px solid rgba(200,146,42,0.2);">

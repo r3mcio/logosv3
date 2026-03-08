@@ -33,101 +33,75 @@ const toggleFaq = (index) => {
         <h1 class="text-2xl sm:text-3xl md:text-5xl font-black tracking-tight mb-3 md:mb-4 text-white leading-tight">
           <span class="text-brand-500">Skup</span> bydła rzeźnego
         </h1>
-        <p class="text-neutral-400 text-base md:text-lg max-w-2xl mx-auto px-2">Skupujemy buhaje, byki, jałówki i krowy. Płatność gotówką od ręki lub przelewem — uczciwe ceny i szybki odbiór.</p>
+        <p class="text-neutral-400 text-base md:text-lg max-w-2xl mx-auto px-2">Kupujemy bydło rzeźne, cielęta małe od 7 dni odsadki, byczki jałówki, krowy cielne, krowy mleczne, jałówki cielne, byki rozpłodniki. Płatność gotówką od ręki lub natychmiastowy przelew — uczciwe ceny i szybki odbiór.</p>
       </div>
     </div>
 
     <!-- Offer Cards -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 md:-mt-10 relative z-10">
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8" data-aos="fade-up" data-aos-delay="100">
+      <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 md:gap-6" data-aos="fade-up" data-aos-delay="100">
         
-        <!-- Offer Card 1: Byki -->
+        <!-- Cielaki -->
         <div class="bg-gradient-to-br from-brand-900 via-brand-950 to-neutral-900 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-brand-800/30 group relative">
           <div class="absolute bottom-0 left-0 w-full h-1 bg-brand-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
-          <div class="h-40 sm:h-44 md:h-52 bg-neutral-800 relative overflow-hidden">
-            <img src="/bulls_premium_1772742794993.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 text-transparent" alt="Byki" loading="lazy" decoding="async" width="600" height="208">
+          <div class="h-32 sm:h-40 md:h-48 bg-neutral-800 relative overflow-hidden">
+            <img src="/heifers_premium_1772742810159.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 text-transparent" alt="Cielaki" loading="lazy" decoding="async" width="600" height="192">
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
             <div class="absolute bottom-0 left-0 w-full p-4 flex justify-between items-end">
-              <h3 class="text-white text-xl font-black">Buhaje / Byki</h3>
-              <span class="text-xs font-bold bg-brand-600 text-white px-2.5 py-1 rounded-full">SKUP</span>
+              <h3 class="text-white text-sm sm:text-base md:text-lg font-black" style="line-height: 1.1">Cielaki</h3>
+              <span class="text-[10px] sm:text-xs font-bold bg-brand-600 text-white px-1.5 sm:px-2.5 py-0.5 sm:py-1 rounded-full">SKUP</span>
             </div>
           </div>
-          <div class="p-5 sm:p-6 md:p-8">
-            <p class="text-neutral-400 mb-6 font-medium text-sm">Poszukujemy bydła o wysokiej mięsności. Interesują nas zarówno rasy mięsne (Limousine, Charolaise), jak i mieszańce.</p>
-            <ul class="space-y-3">
-              <li class="flex items-center text-sm text-neutral-300">
-                <Check class="w-5 h-5 text-brand-500 mr-3 flex-shrink-0" />
-                Waga powyżej 450kg
-              </li>
-              <li class="flex items-center text-sm text-neutral-300">
-                <Check class="w-5 h-5 text-brand-500 mr-3 flex-shrink-0" />
-                Waga ciężka +800kg (Premium)
-              </li>
-              <li class="flex items-center text-sm text-neutral-300">
-                <Check class="w-5 h-5 text-brand-500 mr-3 flex-shrink-0" />
-                Wszystkie klasy WBC
-              </li>
-            </ul>
+          <div class="p-3 sm:p-4 md:p-5">
+             <p class="text-neutral-400 text-xs sm:text-sm font-medium">Skupujemy cielęta małe już od 7. dnia życia. Płacimy rzetelnie od ręki.</p>
           </div>
         </div>
 
-        <!-- Offer Card 2: Jałówki -->
+        <!-- Odsadki -->
         <div class="bg-gradient-to-br from-brand-900 via-brand-950 to-neutral-900 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-brand-800/30 group relative">
           <div class="absolute bottom-0 left-0 w-full h-1 bg-brand-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
-          <div class="h-40 sm:h-44 md:h-52 bg-neutral-800 relative overflow-hidden">
-             <img src="/heifers_premium_1772742810159.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 text-transparent" alt="Jałówki" loading="lazy" decoding="async" width="600" height="208">
+          <div class="h-32 sm:h-40 md:h-48 bg-neutral-800 relative overflow-hidden">
+            <img src="/heifers_premium_1772742810159.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 text-transparent" alt="Odsadki" loading="lazy" decoding="async" width="600" height="192">
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
             <div class="absolute bottom-0 left-0 w-full p-4 flex justify-between items-end">
-              <h3 class="text-white text-xl font-black">Jałówki</h3>
-              <span class="text-xs font-bold bg-brand-600 text-white px-2.5 py-1 rounded-full">SKUP</span>
+              <h3 class="text-white text-sm sm:text-base md:text-lg font-black" style="line-height: 1.1">Odsadki</h3>
+              <span class="text-[10px] sm:text-xs font-bold bg-brand-600 text-white px-1.5 sm:px-2.5 py-0.5 sm:py-1 rounded-full">SKUP</span>
             </div>
           </div>
-          <div class="p-5 sm:p-6 md:p-8">
-            <p class="text-neutral-400 mb-6 font-medium text-sm">Skupujemy jałówki przeznaczone na rzeź. Szczególnie cenimy sztuki dobrze odchowane i zdrowe.</p>
-            <ul class="space-y-3">
-              <li class="flex items-center text-sm text-neutral-300">
-                <Check class="w-5 h-5 text-brand-500 mr-3 flex-shrink-0" />
-                Rasy mleczne i mięsne
-              </li>
-              <li class="flex items-center text-sm text-neutral-300">
-                <Check class="w-5 h-5 text-brand-500 mr-3 flex-shrink-0" />
-                Dobra kondycja zdrowotna
-              </li>
-              <li class="flex items-center text-sm text-neutral-300">
-                <Check class="w-5 h-5 text-brand-500 mr-3 flex-shrink-0" />
-                Płatność od wagi żywej lub WBC
-              </li>
-            </ul>
+          <div class="p-3 sm:p-4 md:p-5">
+            <p class="text-neutral-400 text-xs sm:text-sm font-medium">Kupujemy odsadki rasy mięsnej i mlecznej, gwarantując konkurencyjne ceny.</p>
           </div>
         </div>
 
-        <!-- Offer Card 3: Krowy -->
+        <!-- Krowy mleczne i jałówki cielne -->
         <div class="bg-gradient-to-br from-brand-900 via-brand-950 to-neutral-900 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-brand-800/30 group relative">
           <div class="absolute bottom-0 left-0 w-full h-1 bg-brand-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
-          <div class="h-40 sm:h-44 md:h-52 bg-neutral-800 relative overflow-hidden">
-             <img src="/cows_premium_1772742826381.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 text-transparent" alt="Krowy" loading="lazy" decoding="async" width="600" height="208">
+          <div class="h-32 sm:h-40 md:h-48 bg-neutral-800 relative overflow-hidden">
+            <img src="/cows_premium_1772742826381.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 text-transparent" alt="Krowy i Jałówki" loading="lazy" decoding="async" width="600" height="192">
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
             <div class="absolute bottom-0 left-0 w-full p-4 flex justify-between items-end">
-              <h3 class="text-white text-xl font-black">Krowy</h3>
-              <span class="text-xs font-bold bg-brand-600 text-white px-2.5 py-1 rounded-full">SKUP</span>
+              <h3 class="text-white text-sm sm:text-base md:text-lg font-black" style="line-height: 1.1">Krowy mleczne i jałówki cielne</h3>
+              <span class="text-[10px] sm:text-xs font-bold bg-brand-600 text-white px-1.5 sm:px-2.5 py-0.5 sm:py-1 rounded-full">SKUP</span>
             </div>
           </div>
-          <div class="p-5 sm:p-6 md:p-8">
-            <p class="text-neutral-400 mb-6 font-medium text-sm">Kupujemy krowy wybrakowane, po laktacji oraz sztuki rzeźne. Każdą sztukę wyceniamy indywidualnie.</p>
-            <ul class="space-y-3">
-              <li class="flex items-center text-sm text-neutral-300">
-                <Check class="w-5 h-5 text-brand-500 mr-3 flex-shrink-0" />
-                Krowy HF i mieszańce
-              </li>
-              <li class="flex items-center text-sm text-neutral-300">
-                <Check class="w-5 h-5 text-brand-500 mr-3 flex-shrink-0" />
-                Odbiór nawet pojedynczych sztuk
-              </li>
-              <li class="flex items-center text-sm text-neutral-300">
-                <Check class="w-5 h-5 text-brand-500 mr-3 flex-shrink-0" />
-                Konkurencyjne stawki
-              </li>
-            </ul>
+          <div class="p-3 sm:p-4 md:p-5">
+            <p class="text-neutral-400 text-xs sm:text-sm font-medium">Skupujemy wybrakowane krowy, sztuki po laktacji, a także jałówki.</p>
+          </div>
+        </div>
+
+        <!-- Byki rozpłodniki -->
+        <div class="bg-gradient-to-br from-brand-900 via-brand-950 to-neutral-900 rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-brand-800/30 group relative">
+          <div class="absolute bottom-0 left-0 w-full h-1 bg-brand-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
+          <div class="h-32 sm:h-40 md:h-48 bg-neutral-800 relative overflow-hidden">
+            <img src="/bulls_premium_1772742794993.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 text-transparent" alt="Byki rozpłodniki" loading="lazy" decoding="async" width="600" height="192">
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
+            <div class="absolute bottom-0 left-0 w-full p-4 flex justify-between items-end">
+              <h3 class="text-white text-sm sm:text-base md:text-lg font-black" style="line-height: 1.1">Byki rozpłodniki</h3>
+              <span class="text-[10px] sm:text-xs font-bold bg-brand-600 text-white px-1.5 sm:px-2.5 py-0.5 sm:py-1 rounded-full">SKUP</span>
+            </div>
+          </div>
+          <div class="p-3 sm:p-4 md:p-5">
+            <p class="text-neutral-400 text-xs sm:text-sm font-medium">Buhaje i byki rzeźne. Najlepsze stawki za mięsne rasy, korzystna waga WBC.</p>
           </div>
         </div>
 
@@ -146,69 +120,7 @@ const toggleFaq = (index) => {
         </a>
       </div>
 
-      <!-- Co zapewniamy — dark block -->
-      <div class="mt-12 md:mt-24 bg-gradient-to-br from-brand-900 via-brand-950 to-neutral-900 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-12 relative overflow-hidden shadow-2xl border border-brand-800/30" data-aos="fade-up">
-        <div class="absolute inset-0 opacity-5 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] mix-blend-overlay"></div>
-        <div class="absolute -right-20 -top-20 w-64 h-64 bg-brand-600/10 rounded-full blur-3xl pointer-events-none"></div>
-        <div class="absolute -left-20 -bottom-20 w-64 h-64 bg-brand-600/5 rounded-full blur-3xl pointer-events-none"></div>
-        
-        <div class="relative z-10">
-          <div class="max-w-4xl mx-auto text-center">
-            
-            <div class="mb-10 sm:mb-12">
-              <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-500 text-black text-xs font-bold mb-4 shadow-sm">
-                <ShieldCheck class="w-3.5 h-3.5" />
-                Nasze standardy
-              </div>
-              <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight">Co zapewniamy<br class="hidden sm:block"/> przy każdej transakcji?</h2>
-            </div>
-            
-            <div class="flex flex-col items-center gap-3 sm:gap-4 text-left text-brand-100 text-base max-w-xl mx-auto">
-                  <div class="group relative flex items-center gap-4 px-6 py-4 bg-brand-950/40 rounded-full cursor-default border border-brand-800/30 shadow-md w-full overflow-hidden transition-all duration-300 hover:border-brand-500/50 hover:shadow-brand-500/10 hover:-translate-y-0.5">
-                      <div class="absolute inset-0 bg-gradient-to-r from-brand-900/0 via-brand-900/10 to-brand-600/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                      <div class="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-brand-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                      <div class="p-2 bg-brand-600 rounded-full shadow-lg shrink-0 relative z-10 group-hover:scale-110 group-hover:bg-brand-500 transition-all duration-300">
-                          <Check class="w-5 h-5 text-white"/> 
-                      </div>
-                      <span class="relative z-10 font-bold group-hover:text-white transition-colors">Krótki termin odbioru (2-7 dni)</span>
-                  </div>
-                  <div class="group relative flex items-center gap-4 px-6 py-4 bg-brand-950/40 rounded-full cursor-default border border-brand-800/30 shadow-md w-full overflow-hidden transition-all duration-300 hover:border-brand-500/50 hover:shadow-brand-500/10 hover:-translate-y-0.5">
-                      <div class="absolute inset-0 bg-gradient-to-r from-brand-900/0 via-brand-900/10 to-brand-600/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                      <div class="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-brand-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                      <div class="p-2 bg-brand-600 rounded-full shadow-lg shrink-0 relative z-10 group-hover:scale-110 group-hover:bg-brand-500 transition-all duration-300">
-                          <Check class="w-5 h-5 text-white"/> 
-                      </div>
-                      <span class="relative z-10 font-bold group-hover:text-white transition-colors">Płatność gotówką od ręki lub przelew z VAT</span>
-                  </div>
-                  <div class="group relative flex items-center gap-4 px-6 py-4 bg-brand-950/40 rounded-full cursor-default border border-brand-800/30 shadow-md w-full overflow-hidden transition-all duration-300 hover:border-brand-500/50 hover:shadow-brand-500/10 hover:-translate-y-0.5">
-                      <div class="absolute inset-0 bg-gradient-to-r from-brand-900/0 via-brand-900/10 to-brand-600/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                      <div class="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-brand-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                      <div class="p-2 bg-brand-600 rounded-full shadow-lg shrink-0 relative z-10 group-hover:scale-110 group-hover:bg-brand-500 transition-all duration-300">
-                          <Check class="w-5 h-5 text-white"/> 
-                      </div>
-                      <span class="relative z-10 font-bold group-hover:text-white transition-colors">Pomoc w załadunku</span>
-                  </div>
-                  <div class="group relative flex items-center gap-4 px-6 py-4 bg-brand-950/40 rounded-full cursor-default border border-brand-800/30 shadow-md w-full overflow-hidden transition-all duration-300 hover:border-brand-500/50 hover:shadow-brand-500/10 hover:-translate-y-0.5">
-                      <div class="absolute inset-0 bg-gradient-to-r from-brand-900/0 via-brand-900/10 to-brand-600/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                      <div class="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-brand-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                      <div class="p-2 bg-brand-600 rounded-full shadow-lg shrink-0 relative z-10 group-hover:scale-110 group-hover:bg-brand-500 transition-all duration-300">
-                          <Check class="w-5 h-5 text-white"/> 
-                      </div>
-                      <span class="relative z-10 font-bold group-hover:text-white transition-colors">Wystawiamy faktury RR i VAT</span>
-                  </div>
-                  <div class="group relative flex items-center gap-4 px-6 py-4 bg-brand-950/40 rounded-full cursor-default border border-brand-800/30 shadow-md w-full overflow-hidden transition-all duration-300 hover:border-brand-500/50 hover:shadow-brand-500/10 hover:-translate-y-0.5">
-                      <div class="absolute inset-0 bg-gradient-to-r from-brand-900/0 via-brand-900/10 to-brand-600/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                      <div class="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-brand-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                      <div class="p-2 bg-brand-600 rounded-full shadow-lg shrink-0 relative z-10 group-hover:scale-110 group-hover:bg-brand-500 transition-all duration-300">
-                          <Check class="w-5 h-5 text-white"/> 
-                      </div>
-                      <span class="relative z-10 font-bold group-hover:text-white transition-colors">Prowadzimy wykaz przemieszczeń bydła</span>
-                  </div>
-              </div>
-            
-          </div>
-        </div>
-      </div>
+      <!-- Co zapewniamy block has been removed to Home.vue -->
 
       <!-- Enhanced Contact CTA -->
       <div class="mt-8 md:mt-12 pb-12 md:pb-20 px-4" data-aos="fade-up">

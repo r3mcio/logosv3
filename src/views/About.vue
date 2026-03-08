@@ -18,7 +18,7 @@ import { BadgeCheck, Users, Clock, ShieldCheck, Truck, Scale, Banknote, Phone, A
           OD 2007 ROKU
         </div>
         <h1 class="text-3xl md:text-5xl font-black tracking-tight mb-4 text-white leading-tight">
-          Ponad <span class="text-brand-500">18 lat doświadczenia</span><br>w skupie bydła
+          Ponad <span class="text-brand-500">25 lat doświadczenia</span><br>w skupie bydła
         </h1>
         <p class="text-neutral-400 text-lg max-w-2xl mx-auto">Firma Logos prowadzona przez Marcina Kiedla to gwarancja uczciwości i profesjonalizmu.</p>
       </div>
@@ -47,7 +47,7 @@ import { BadgeCheck, Users, Clock, ShieldCheck, Truck, Scale, Banknote, Phone, A
                 <div class="absolute -top-[1px] -left-[1px] w-8 h-8 bg-brand-900 border-t border-l border-brand-800/30 transform -skew-y-[45deg] origin-top-left"></div>
                 <div class="space-y-4 text-neutral-400 text-base md:text-lg leading-relaxed relative z-10">
                   <p>
-                    Z głębokim szacunkiem podchodzimy do trudu pracy rolnika, dlatego naszą misją jest realne wsparcie lokalnego rolnictwa. Nazywam się <strong class="text-white">Marcin Kiedel</strong> i od ponad 18 lat prowadzę firmę Logos.
+                    Z głębokim szacunkiem podchodzimy do trudu pracy rolnika, dlatego naszą misją jest realne wsparcie lokalnego rolnictwa. Nazywam się <strong class="text-white">Marcin Kiedel</strong> i od ponad 25 lat prowadzę firmę Logos.
                   </p>
                   <p>
                     Choć działamy głównie w powiatach <strong class="text-white">szczecineckim, świdwińskim, wałeckim, koszalińskim i drawskim</strong>, jesteśmy w pełni otwarci na współpracę z rolnikami na terenie całego kraju.
@@ -56,6 +56,17 @@ import { BadgeCheck, Users, Clock, ShieldCheck, Truck, Scale, Banknote, Phone, A
                     W codziennej pracy stawiamy na solidność, rzetelność i pełną przejrzystość transakcji. Dzięki ugruntowanej współpracy z wiodącymi ubojniami w kraju i za granicą, gwarantujemy naszym dostawcom <strong class="text-white">konkurencyjne warunki cenowe</strong>.
                   </p>
                 </div>
+            </div>
+
+            <!-- Handel wymienny -->
+            <div class="mt-6 flex items-start gap-4 p-5 bg-gradient-to-r from-brand-900/40 to-transparent border-l-4 border-brand-500 rounded-r-xl" data-aos="fade-right" data-aos-delay="300">
+              <div class="w-10 h-10 bg-brand-950/80 rounded-full flex items-center justify-center shrink-0 border border-brand-500/30 text-brand-400 shadow-lg">
+                <Handshake class="w-5 h-5" />
+              </div>
+              <div>
+                <h4 class="font-bold text-white text-lg mb-1">Handel wymienny</h4>
+                <p class="text-neutral-400 text-sm">Kupując u nas cielęta, możesz sprzedać nam bydło rzeźne po wyższej cenie.</p>
+              </div>
             </div>
 
             <!-- Trust Badges -->
@@ -218,6 +229,35 @@ import { BadgeCheck, Users, Clock, ShieldCheck, Truck, Scale, Banknote, Phone, A
       </div>
     </section>
 
+    <!-- Nasze Realizacje / Galeria -->
+    <section class="py-16 md:py-24 relative overflow-hidden bg-neutral-950 border-t border-neutral-800" data-aos="fade-up">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="text-center mb-12">
+          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-950 text-brand-400 text-xs font-bold mb-4 border border-brand-900 shadow-sm">
+            <Truck class="w-3.5 h-3.5" />
+            GALERIA
+          </div>
+          <h2 class="text-3xl md:text-4xl font-black text-white tracking-tight mb-4">Nasze <span class="text-brand-500">realizacje</span></h2>
+          <p class="text-neutral-400 text-lg max-w-2xl mx-auto">Zobacz jak wygląda nasza codzienna praca, transport i obsługa skupu bydła.</p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+          <div class="relative group rounded-2xl overflow-hidden border border-neutral-800 aspect-video">
+            <div class="absolute inset-0 bg-brand-900/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
+             <img src="/about-cows-v2.webp" alt="Realizacja" class="w-full h-full object-cover transform scale-100 group-hover:scale-110 transition-transform duration-700" loading="lazy" decoding="async">
+          </div>
+          <div class="relative group rounded-2xl overflow-hidden border border-neutral-800 aspect-video">
+            <div class="absolute inset-0 bg-brand-900/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
+             <img src="/transport_premium_1772742853585.png" alt="Realizacja" class="w-full h-full object-cover transform scale-100 group-hover:scale-110 transition-transform duration-700" loading="lazy" decoding="async">
+          </div>
+          <div class="relative group rounded-2xl overflow-hidden border border-neutral-800 aspect-video">
+            <div class="absolute inset-0 bg-brand-900/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
+             <img src="/wmremove-transformed.webp" alt="Realizacja" class="w-full h-full object-cover transform scale-100 group-hover:scale-110 transition-transform duration-700" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Stats Section -->
     <section class="bg-black text-white py-16 md:py-20 relative overflow-hidden" data-aos="fade-up">
       <div class="absolute inset-0 opacity-5 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
@@ -228,7 +268,7 @@ import { BadgeCheck, Users, Clock, ShieldCheck, Truck, Scale, Banknote, Phone, A
         </div>
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
           <div class="p-6">
-            <p class="text-4xl md:text-5xl font-black text-white mb-2 cursor-default">18+</p>
+            <p class="text-4xl md:text-5xl font-black text-white mb-2 cursor-default">25+</p>
             <p class="text-neutral-400 font-medium tracking-wide">Lat na rynku</p>
           </div>
           <div class="p-6 border-t md:border-t-0 md:border-l border-neutral-800">

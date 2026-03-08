@@ -1,6 +1,6 @@
 <script setup>
 import HeroSection from '../components/HeroSection.vue';
-import { Truck, Scale, Banknote, Phone, PhoneCall, Clock, Handshake, ArrowRight, Users, Timer, ShieldCheck, MapPin, Star } from 'lucide-vue-next';
+import { Truck, Scale, Banknote, Phone, PhoneCall, Clock, Handshake, ArrowRight, Users, Timer, ShieldCheck, MapPin, Star, Check } from 'lucide-vue-next';
 </script>
 
 <template>
@@ -44,10 +44,10 @@ import { Truck, Scale, Banknote, Phone, PhoneCall, Clock, Handshake, ArrowRight,
               <Scale class="w-5 h-5" />
             </div>
             <h3 class="font-display text-lg font-bold mb-3" style="font-family: 'Barlow Condensed', sans-serif; color: #f0ead8;">
-              Uczciwa waga elektroniczna
+              Uczciwa waga i rzetelna wycena bydła
             </h3>
             <p class="text-sm leading-relaxed" style="color: #6b5a42;">
-              Ważenie odbywa się w Twojej obecności na legalizowanych wagach. Pełna transparentność i wydruk z wagi.
+              Ważenie w Twojej obecności na legalizowanych wagach. Pełna transparentność i wydruk ze specyfikacją. Możliwość rozliczenia w układzie wbc.
             </p>
             <div class="absolute bottom-0 left-6 right-6 h-px opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               style="background: linear-gradient(90deg, transparent, rgba(200,146,42,0.4), transparent);"></div>
@@ -60,10 +60,10 @@ import { Truck, Scale, Banknote, Phone, PhoneCall, Clock, Handshake, ArrowRight,
               <Banknote class="w-5 h-5" />
             </div>
             <h3 class="font-display text-lg font-bold mb-3" style="font-family: 'Barlow Condensed', sans-serif; color: #f0ead8;">
-              Płatność od ręki
+              Gotówką od ręki lub natychmiastowy przelew
             </h3>
             <p class="text-sm leading-relaxed" style="color: #6b5a42;">
-              Płacimy natychmiast po zważeniu i ustaleniu ceny. Gotówka lub szybki przelew na życzenie rolnika.
+              Płacimy natychmiast po zważeniu i ustaleniu ceny. Wybierasz formę rozliczenia — my gwarantujemy środki od razu.
             </p>
             <div class="absolute bottom-0 left-6 right-6 h-px opacity-0 group-hover:opacity-100 transition-opacity duration-300"
               style="background: linear-gradient(90deg, transparent, rgba(200,146,42,0.4), transparent);"></div>
@@ -146,6 +146,74 @@ import { Truck, Scale, Banknote, Phone, PhoneCall, Clock, Handshake, ArrowRight,
       </div>
     </section>
 
+    <!-- ===== CO ZAPEWNIAMY ===== -->
+    <section class="py-16 md:py-24 relative overflow-hidden" style="background: #0f1209; border-bottom: 1px solid rgba(200,146,42,0.1);">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="bg-gradient-to-br from-brand-900 via-brand-950 to-neutral-900 rounded-2xl sm:rounded-3xl p-5 sm:p-8 md:p-12 relative overflow-hidden shadow-2xl border border-brand-800/30" data-aos="fade-up">
+          <div class="absolute inset-0 opacity-5 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] mix-blend-overlay"></div>
+          <div class="absolute -right-20 -top-20 w-64 h-64 bg-brand-600/10 rounded-full blur-3xl pointer-events-none"></div>
+          <div class="absolute -left-20 -bottom-20 w-64 h-64 bg-brand-600/5 rounded-full blur-3xl pointer-events-none"></div>
+          
+          <div class="relative z-10">
+            <div class="max-w-4xl mx-auto text-center">
+              
+              <div class="mb-10 sm:mb-12">
+                <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-500 text-black text-xs font-bold mb-4 shadow-sm">
+                  <ShieldCheck class="w-3.5 h-3.5" />
+                  Nasze standardy
+                </div>
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight">Co zapewniamy<br class="hidden sm:block"/> przy każdej transakcji?</h2>
+              </div>
+              
+              <div class="flex flex-col items-center gap-3 sm:gap-4 text-left text-brand-100 text-base max-w-xl mx-auto">
+                    <div class="group relative flex items-center gap-4 px-6 py-4 bg-brand-950/40 rounded-full cursor-default border border-brand-800/30 shadow-md w-full overflow-hidden transition-all duration-300 hover:border-brand-500/50 hover:shadow-brand-500/10 hover:-translate-y-0.5">
+                        <div class="absolute inset-0 bg-gradient-to-r from-brand-900/0 via-brand-900/10 to-brand-600/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                        <div class="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-brand-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        <div class="p-2 bg-brand-600 rounded-full shadow-lg shrink-0 relative z-10 group-hover:scale-110 group-hover:bg-brand-500 transition-all duration-300">
+                            <Check class="w-5 h-5 text-white"/> 
+                        </div>
+                        <span class="relative z-10 font-bold group-hover:text-white transition-colors">Krótki termin odbioru (2-7 dni)</span>
+                    </div>
+                    <div class="group relative flex items-center gap-4 px-6 py-4 bg-brand-950/40 rounded-full cursor-default border border-brand-800/30 shadow-md w-full overflow-hidden transition-all duration-300 hover:border-brand-500/50 hover:shadow-brand-500/10 hover:-translate-y-0.5">
+                        <div class="absolute inset-0 bg-gradient-to-r from-brand-900/0 via-brand-900/10 to-brand-600/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                        <div class="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-brand-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        <div class="p-2 bg-brand-600 rounded-full shadow-lg shrink-0 relative z-10 group-hover:scale-110 group-hover:bg-brand-500 transition-all duration-300">
+                            <Check class="w-5 h-5 text-white"/> 
+                        </div>
+                        <span class="relative z-10 font-bold group-hover:text-white transition-colors">Płatność gotówką od ręki lub natychmiastowy przelew ze zwrotem VAT</span>
+                    </div>
+                    <div class="group relative flex items-center gap-4 px-6 py-4 bg-brand-950/40 rounded-full cursor-default border border-brand-800/30 shadow-md w-full overflow-hidden transition-all duration-300 hover:border-brand-500/50 hover:shadow-brand-500/10 hover:-translate-y-0.5">
+                        <div class="absolute inset-0 bg-gradient-to-r from-brand-900/0 via-brand-900/10 to-brand-600/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                        <div class="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-brand-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        <div class="p-2 bg-brand-600 rounded-full shadow-lg shrink-0 relative z-10 group-hover:scale-110 group-hover:bg-brand-500 transition-all duration-300">
+                            <Check class="w-5 h-5 text-white"/> 
+                        </div>
+                        <span class="relative z-10 font-bold group-hover:text-white transition-colors">Pomoc w załadunku</span>
+                    </div>
+                    <div class="group relative flex items-center gap-4 px-6 py-4 bg-brand-950/40 rounded-full cursor-default border border-brand-800/30 shadow-md w-full overflow-hidden transition-all duration-300 hover:border-brand-500/50 hover:shadow-brand-500/10 hover:-translate-y-0.5">
+                        <div class="absolute inset-0 bg-gradient-to-r from-brand-900/0 via-brand-900/10 to-brand-600/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                        <div class="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-brand-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        <div class="p-2 bg-brand-600 rounded-full shadow-lg shrink-0 relative z-10 group-hover:scale-110 group-hover:bg-brand-500 transition-all duration-300">
+                            <Check class="w-5 h-5 text-white"/> 
+                        </div>
+                        <span class="relative z-10 font-bold group-hover:text-white transition-colors">Wystawiamy faktury RR i VAT</span>
+                    </div>
+                    <div class="group relative flex items-center gap-4 px-6 py-4 bg-brand-950/40 rounded-full cursor-default border border-brand-800/30 shadow-md w-full overflow-hidden transition-all duration-300 hover:border-brand-500/50 hover:shadow-brand-500/10 hover:-translate-y-0.5">
+                        <div class="absolute inset-0 bg-gradient-to-r from-brand-900/0 via-brand-900/10 to-brand-600/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                        <div class="absolute inset-x-0 bottom-0 h-px bg-gradient-to-r from-transparent via-brand-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        <div class="p-2 bg-brand-600 rounded-full shadow-lg shrink-0 relative z-10 group-hover:scale-110 group-hover:bg-brand-500 transition-all duration-300">
+                            <Check class="w-5 h-5 text-white"/> 
+                        </div>
+                        <span class="relative z-10 font-bold group-hover:text-white transition-colors">Prowadzimy wykaz przemieszczeń bydła</span>
+                    </div>
+                </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- ===== ABOUT / STORY ===== -->
     <section class="py-16 md:py-24 relative overflow-hidden" style="background: #0f1209; border-bottom: 1px solid rgba(200,146,42,0.1);">
       <div class="max-w-7xl mx-auto px-6 lg:px-8">
@@ -162,7 +230,7 @@ import { Truck, Scale, Banknote, Phone, PhoneCall, Clock, Handshake, ArrowRight,
             <div class="absolute -bottom-4 left-4 right-4 flex justify-between gap-3">
               <div class="flex-1 p-4 rounded-xl shadow-xl backdrop-blur-md" style="background: rgba(10,12,8,0.95); border: 1px solid rgba(200,146,42,0.25);">
                 <p class="text-[10px] uppercase tracking-widest font-bold mb-0.5" style="color: #6b5a42;">Doświadczenie</p>
-                <p class="text-2xl font-black tracking-tight" style="color: #c8922a;">18+ lat</p>
+                <p class="text-2xl font-black tracking-tight" style="color: #c8922a;">25+ lat</p>
               </div>
               <div class="flex-1 p-4 rounded-xl shadow-xl backdrop-blur-md" style="background: rgba(10,12,8,0.95); border: 1px solid rgba(200,146,42,0.25);">
                 <p class="text-[10px] uppercase tracking-widest font-bold mb-0.5" style="color: #6b5a42;">Zasięg</p>
@@ -178,7 +246,7 @@ import { Truck, Scale, Banknote, Phone, PhoneCall, Clock, Handshake, ArrowRight,
               Firma z <em class="not-italic" style="color: #c8922a;">tradycją</em> i<br>szacunkiem do&nbsp;rolnika.
             </h2>
             <p class="text-base leading-relaxed mb-5" style="color: #6b5a42;">
-              Nazywam się <strong style="color: #d4c8b0;">Marcin Kiedel</strong> i od ponad 18 lat prowadzę firmę Logos. Przez ten czas zbudowałem relacje z setkami rolników z całego województwa zachodniopomorskiego.
+              Nazywam się <strong style="color: #d4c8b0;">Marcin Kiedel</strong> i od ponad 25 lat prowadzę firmę Logos. Przez ten czas zbudowałem relacje z setkami rolników z całego województwa zachodniopomorskiego.
             </p>
             <p class="text-base leading-relaxed mb-8" style="color: #6b5a42;">
               Szanuję ciężką pracę rolnika — dlatego stawiam na <strong style="color: #d4c8b0;">uczciwość, terminowość</strong> i <strong style="color: #d4c8b0;">rzetelne warunki</strong>. Każda transakcja to moje słowo honoru.
@@ -210,7 +278,7 @@ import { Truck, Scale, Banknote, Phone, PhoneCall, Clock, Handshake, ArrowRight,
 
         <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
           <div v-for="(stat, i) in [
-            { icon: Clock, value: '18+', label: 'Lat na rynku' },
+            { icon: Clock, value: '25+', label: 'Lat na rynku' },
             { icon: Users, value: '1000+', label: 'Rolników' },
             { icon: Timer, value: '24h', label: 'Czas reakcji' },
             { icon: MapPin, value: 'Cała', label: 'Polska' },

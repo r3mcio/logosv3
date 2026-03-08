@@ -33,7 +33,7 @@ const toggleFaq = (index) => {
         <h1 class="text-2xl sm:text-3xl md:text-5xl font-black tracking-tight mb-3 md:mb-4 text-white leading-tight">
           <span class="text-brand-500">Sprzedaż</span> bydła hodowlanego
         </h1>
-        <p class="text-neutral-400 text-base md:text-lg max-w-2xl mx-auto px-2">Oferujemy bydło hodowlane najwyższej jakości z gwarancją zdrowia.</p>
+        <p class="text-neutral-400 text-base md:text-lg max-w-2xl mx-auto px-2">Oferujemy do sprzedaży: bydło rzeźne, byki rozpłodniki, krowy cielne, jałówki cielne, byczki i jałówki do dalszej hodowli lub opasu, jałówki pod zacielenie, krowy mleczne, startery opasowe, cielaki i odsadki.</p>
       </div>
     </div>
 
@@ -79,12 +79,12 @@ const toggleFaq = (index) => {
                 <img src="/cows_premium_1772742826381.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 text-transparent" alt="Krowy i Jałówki" loading="lazy" decoding="async" width="600" height="192">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
                 <div class="absolute bottom-0 left-0 w-full p-4 flex justify-between items-end">
-                  <h3 class="text-white text-sm sm:text-base md:text-lg font-black">Krowy i Jałówki</h3>
+                  <h3 class="text-white text-sm sm:text-base md:text-lg font-black" style="line-height: 1.1">Krowy mleczne i jałówki cielne</h3>
                   <span class="text-[10px] sm:text-xs font-bold bg-brand-600 text-white px-1.5 sm:px-2.5 py-0.5 sm:py-1 rounded-full">SPRZEDAŻ</span>
                 </div>
               </div>
               <div class="p-3 sm:p-4 md:p-5">
-                <p class="text-neutral-400 text-xs sm:text-sm font-medium">Cielne krowy i jałówki do dalszego chowu. Gwarancja zdrowia i dobrej kondycji.</p>
+                <p class="text-neutral-400 text-xs sm:text-sm font-medium">Krowy mleczne oraz jałówki cielne i pod zacielenie do dalszego chowu. Gwarancja zdrowia i dobrej kondycji.</p>
               </div>
             </div>
 
@@ -95,7 +95,7 @@ const toggleFaq = (index) => {
                 <img src="/bulls_premium_1772742794993.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 text-transparent" alt="Byki rozpłodniki" loading="lazy" decoding="async" width="600" height="192">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent"></div>
                 <div class="absolute bottom-0 left-0 w-full p-4 flex justify-between items-end">
-                  <h3 class="text-white text-sm sm:text-base md:text-lg font-black">Byki</h3>
+                  <h3 class="text-white text-sm sm:text-base md:text-lg font-black" style="line-height: 1.1">Byki rozpłodniki</h3>
                   <span class="text-[10px] sm:text-xs font-bold bg-brand-600 text-white px-1.5 sm:px-2.5 py-0.5 sm:py-1 rounded-full">SPRZEDAŻ</span>
                 </div>
               </div>

@@ -60,11 +60,10 @@ onUnmounted(() => {
         <div class="flex items-center -ml-2">
           <RouterLink to="/" class="group flex items-center gap-3">
             <img
-              src="/logobeztla.webp"
+              src="/logobeztla.png"
               alt="Logos — Skup Bydła"
-              class="h-11 w-auto object-contain transition-all duration-300"
+              class="h-16 md:h-20 w-auto object-contain transition-all duration-300"
               style="filter: brightness(0) invert(1); opacity: 0.85;"
-              width="200" height="52"
             />
           </RouterLink>
         </div>

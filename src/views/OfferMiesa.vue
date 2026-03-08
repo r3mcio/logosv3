@@ -131,15 +131,29 @@ const toggleFaq = (index) => {
         <div class="text-center mb-8 md:mb-10">
           <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-950/50 text-brand-400 text-xs font-bold mb-3 md:mb-4 border border-brand-900/30">
             <Handshake class="w-3.5 h-3.5" />
-            WSPÓŁPRACA
+            O NAS
           </div>
           <h2 class="text-xl sm:text-2xl md:text-3xl font-black text-white tracking-tight">
-            Nasi <span class="text-brand-500">Partnerzy</span>
+            Firma z <span class="text-brand-500">tradycjami rodzinnymi</span>
           </h2>
-          <p class="text-neutral-500 text-sm md:text-base mt-2 max-w-lg mx-auto">Współpracujemy z zaufanymi firmami, aby dostarczać mięso najwyższej jakości.</p>
+          <p class="text-neutral-500 text-sm md:text-base mt-2 max-w-lg mx-auto">Dbamy o najwyższą jakość mięsa, bazując na wieloletnim doświadczeniu i wiedzy zintegrowanego modelu od pola, na stół.</p>
         </div>
 
         <div class="flex flex-wrap items-center justify-center gap-6 md:gap-10">
+          <!-- Logo 1: Logos -->
+          <div class="group relative bg-neutral-900/80 rounded-2xl border border-neutral-800 hover:bg-neutral-900 hover:border-brand-800/50 p-6 sm:p-8 transition-all duration-500 hover:shadow-xl hover:shadow-brand-900/20 hover:-translate-y-1">
+            <div class="absolute inset-0 rounded-2xl bg-gradient-to-br from-brand-950/0 to-brand-900/0 group-hover:from-brand-950/40 group-hover:to-brand-900/10 transition-all duration-500"></div>
+            <div class="relative flex items-center justify-center h-20 sm:h-24 px-8 w-40 sm:w-52">
+              <img
+                src="/logobeztla.png"
+                alt="Logos"
+                class="max-h-full max-w-full object-contain filter brightness-0 invert opacity-70 group-hover:opacity-100 transition-all duration-500"
+                loading="lazy"
+                decoding="async"
+              >
+            </div>
+          </div>
+
           <!-- Partner 1: Ranczo Panderossa -->
           <div class="group relative bg-neutral-900/80 rounded-2xl border border-neutral-800 hover:bg-neutral-900 hover:border-brand-800/50 p-6 sm:p-8 transition-all duration-500 hover:shadow-xl hover:shadow-brand-900/20 hover:-translate-y-1">
             <div class="absolute inset-0 rounded-2xl bg-gradient-to-br from-brand-950/0 to-brand-900/0 group-hover:from-brand-950/40 group-hover:to-brand-900/10 transition-all duration-500"></div>
